@@ -1,0 +1,20 @@
+.c-button {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding: 1em 6em;
+}
+
+.c-button--blue {
+    background: #3498db;
+    color: #fff;
+}
+
+.c-button--white {
+    background: #fff;
+    color: #4b4b4b
+}
+
+.c-button--arrow {
+    background: url(../img/ico_arrowR.png) 98% center no-repeat;
+}

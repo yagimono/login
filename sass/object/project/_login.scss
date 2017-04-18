@@ -1,0 +1,71 @@
+.p-login {}
+
+.p-login__title {
+  padding: 10px;
+  font-size: 20px;
+  background: #4b4b4b;
+  color: #ffffff;
+  text-align: center;
+}
+
+.p-login__action {
+  text-align: center;
+}
+
+.p-member {
+  margin: 20px;
+}
+
+.p-member__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p-member__account {
+    display: block;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.p-member__memory {
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    background: #dfdfdf;
+    margin-bottom: 20px;
+}
+
+.p-member__forget {
+    text-align: center;
+}
+
+.p-member__action {
+    text-align: center;
+}
+
+
+.p-newie {
+    margin: 20px;
+}
+
+.p-newie__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p-newie__box {
+    background: #dfdfdf;
+    padding: 10px;
+}
+
+.p-newie__action {
+    text-align: center;
+}
+
+.p-newie__button {
+    background-color: #ffffff;
+}
+
+.p-newie__attention {
+    background-color: #ffffff;
+}

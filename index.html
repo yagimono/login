@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ログイン | AKB48グループショップ</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="css/style.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div id="wrap" class="p-login">
+        <h1 id="login" class="p-login__title">ログイン</h1>
+        <section id="member" class="p-member">
+            <h2 class="p-member__title">AKB48グループサービス会員の方</h2>
+            <input type="text" name="id" placeholder="ID" class="c-text p-member__account">
+            <input type="password" name="password" placeholder="パスワード" class="c-text p-member__account">
+            <div class="p-member__memory">
+                <input type="checkbox" id="memory" name="memory" value="1">
+                <label for="memory">IDを記憶させる</label>
+            </div>
+            <div class="p-member__forget">
+                <a href=""><label class="c-label c-label--arrow">パスワードを忘れた方</label></a>
+                <a href=""><label class="c-label c-label--arrow">IDを忘れた方</label></a>
+            </div>
+            <p class="c-label c-label--attention">
+                ※お客様にご使用いただいておりますブラウザのバージョンによりましては、 正常にAKB48グループショップをご利用いただけない場合がございます。<br>ログインできない、ご購入いただけない等がございました際は、 お手数ですが「ブラウザを最新バージョンにアップデート」いただきますようお願いいたします。
+            </p>
+            <div class="p-member__action">
+                <input type="button" value="ログイン" class="c-button c-button--blue">
+                <input type="button" value="キャンセル" class="c-button c-button--white">
+            </div>
+        </section>
+        <section id="newie" class="p-newie">
+            <h2 class="p-newie__title">AKB48グループサービスを初めてご利用される方</h2>
+            <div class="p-newie__box">
+              <div class="p-newie__action">
+                <input type="button" value="会員登録をする" class="c-button c-button--white c-button--arrow p-newie__button">
+              </div>
+                <p class="p-newie__attention">一部の特定商品を除き、AKB48グループショップ商品をご購入いただくには、AKB48グループサービスの会員登録（ID・パスワード）の発行が必要です。<br>これにより、AKB48グループサービスにおいて共通のIDとしてご利用いただくことが可能です。<br>※AKB48グループIDは、AKB48グループショップだけでなく、AKB48グループチケットセンターでもご利用いただけます。
+                </p>
+            </div>
+        </section>
+        <div class="p-login__action">
+          <input type="button" value="閉じる" class="c-button c-button--white">
+        </div>
+    </div>
+</body>
+
+</html>
